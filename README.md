@@ -103,7 +103,7 @@ Requiere Python 3.10 o superior.
 ```bash
 pip install -r requirements.txt
 
-# Figuras teóricas
+# Figuras teóricas (por ejemplo fig_gp_prior.py)
 python teoria/fig_gp_prior.py
 
 # Caso sintético (función de Forrester)
