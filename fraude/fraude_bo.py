@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 ====================================================================
  Optimizacion Bayesiana de hiperparametros de XGBoost
