@@ -1,0 +1,16 @@
+# Dataset (no se versiona: tamaño y licencia)
+creditcard.csv
+data/*.csv
+
+# Figuras generadas por los scripts
+*.pdf
+
+# Artefactos de Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
