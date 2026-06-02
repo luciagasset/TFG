@@ -1,4 +1,4 @@
-# Optimización Bayesiana de hiperparámetros
+# Optimización Bayesiana
 
 > Trabajo de Fin de Grado — Grado en Matemáticas
 
