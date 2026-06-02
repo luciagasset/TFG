@@ -8,14 +8,14 @@
 Objetivo
 --------
 Maximizar el AUC-PR (area bajo la curva precision-recall) de un modelo
-XGBoost mediante optimizacion bayesiana basada en Procesos Gaussianos.
+XGBoost utilizando la optimizacion bayesiana para optimizar los hiperparámetros del modelo.
 
 Metodologia
 -----------
   * Funcion objetivo: AUC-PR medio en validacion cruzada estratificada
     de k pliegues. Promediar sobre los pliegues estabiliza la senal y
     evita el sobreajuste a una unica particion de validacion.
-  * Modelo sustituto (surrogate): un unico Proceso Gaussiano (kernel
+  * Modelo sustituto: un unico Proceso Gaussiano (kernel
     Matern 5/2 con ARD y ajuste MAP mediante un prior LogNormal sobre
     la longitud de escala). El MISMO GP que dirige la optimizacion es
     el que se emplea para las visualizaciones: las graficas muestran
