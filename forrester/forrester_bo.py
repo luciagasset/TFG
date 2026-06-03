@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 ====================================================================
  Optimizacion Bayesiana sobre la funcion de Forrester
