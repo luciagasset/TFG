@@ -291,7 +291,7 @@ ax.set_title("Convergencia de la optimizacion bayesiana")
 ax.legend(loc="lower right")
 plt.tight_layout(); plt.savefig("bo_1_convergencia.pdf"); plt.close()
 
-# --- Posterior del GP sobre la rebanada learning_rate x scale_pos_weight ---
+# --- Posterior del GP sobre learning_rate x scale_pos_weight ---
 # (max_depth se fija en su valor optimo). Mismo GP que dirige el BO.
 gp_final = ajustar_gp(U, Y)
 RES = 70
